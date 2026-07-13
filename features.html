@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Aegis Cyber</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Aegis<span>Cyber</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-section slide-up">
+        <div class="section-header">
+            <h2>Comprehensive Security Suite</h2>
+            <p>Protection tools for every layer of your modern stack.</p>
+        </div>
+
+        <div class="tabs-container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-target="tab-network">Network Security</button>
+                <button class="tab-btn" data-target="tab-identity">Identity & Access</button>
+                <button class="tab-btn" data-target="tab-data">Data Protection</button>
+            </div>
+
+            <div id="tab-network" class="tab-content active">
+                <div class="feature-deep-dive">
+                    <div class="text-content">
+                        <h3 style="color: var(--accent-primary); font-size: 2rem; margin-bottom: 1rem;">DDoS Mitigation</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 1.1rem;">
+                            Our global Anycast network absorbs volumetric attacks automatically. Aegis deflects DDoS traffic at the edge before it ever reaches your origin servers, ensuring 100% uptime even during massive botnet assaults.
+                        </p>
+                        <ul style="color: var(--text-primary); margin-left: 1.5rem; line-height: 2;">
+                            <li>L3/L4 volumetric attack protection</li>
+                            <li>L7 application-layer defense</li>
+                            <li>Real-time traffic analytics</li>
+                        </ul>
+                    </div>
+                    <div class="visual-content">
+                        [ Network Diagram Graphic ]
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-identity" class="tab-content">
+                <div class="feature-deep-dive">
+                    <div class="text-content">
+                        <h3 style="color: var(--accent-tertiary); font-size: 2rem; margin-bottom: 1rem;">Zero-Trust Architecture</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 1.1rem;">
+                            Never trust, always verify. Enforce strict access policies across your entire organizational infrastructure. Seamlessly integrate with your existing SSO providers like Okta, Azure AD, and Google Workspace.
+                        </p>
+                        <ul style="color: var(--text-primary); margin-left: 1.5rem; line-height: 2;">
+                            <li>Multi-Factor Authentication (MFA)</li>
+                            <li>Role-Based Access Control (RBAC)</li>
+                            <li>Continuous authorization</li>
+                        </ul>
+                    </div>
+                    <div class="visual-content" style="border-color: rgba(252, 238, 10, 0.3);">
+                        [ Identity Access Flow Graphic ]
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-data" class="tab-content">
+                <div class="feature-deep-dive">
+                    <div class="text-content">
+                        <h3 style="color: var(--accent-secondary); font-size: 2rem; margin-bottom: 1rem;">End-to-End Encryption</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 1.1rem;">
+                            All data is encrypted at rest and in transit using AES-256 standards. Our quantum-resistant key management system ensures your sensitive information remains completely unreadable to unauthorized parties, forever.
+                        </p>
+                        <ul style="color: var(--text-primary); margin-left: 1.5rem; line-height: 2;">
+                            <li>AES-256 military-grade encryption</li>
+                            <li>Bring Your Own Key (BYOK) support</li>
+                            <li>Hardware Security Module (HSM) backed</li>
+                        </ul>
+                    </div>
+                    <div class="visual-content" style="border-color: rgba(255, 0, 255, 0.3);">
+                        [ Encryption Matrix Graphic ]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section slide-up">
+        <h2>Start your free trial today.</h2>
+        <a href="pricing.html" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 2.5rem;">View Pricing</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Aegis<span>Cyber</span></a>
+                <p>Securing the future of enterprise infrastructure.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aegis Cyber. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
